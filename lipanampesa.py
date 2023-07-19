@@ -4,10 +4,10 @@ from requests.auth import HTTPBasicAuth
 from datetime import datetime
 
 business_short_code = "174379"#paybill number
-phone_number = "254740364413"
-lipa_na_mpesa_passkey = "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919"
-consumer_secret = "GUleOW9tNaFZ3R7A" #consumer secret
-consumer_key = "JJDgTelBboJwGbnxnAekn7ajiDlEBlZm"
+phone_number = ""
+lipa_na_mpesa_passkey = ""
+consumer_secret = "" #consumer secret
+consumer_key = ""
 
 api_Url = ("https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials")
 r = requests.get(api_Url, auth=HTTPBasicAuth(consumer_key, consumer_secret))
